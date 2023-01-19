@@ -36,7 +36,7 @@ document.getElementById("startTimer").addEventListener("click", function(){
     });
 
     //Dit is een timer functie dat aftelt en op de pagina toont en gaat van start als er op de startTimer knop is geklikt.
-    var downloadTimer = setInterval(function function1(){
+    var downloadTimer = setInterval(function timerFunction(){
     document.getElementById("timer").innerHTML = timeleft + 
     "&nbsp"+"seconds remaining";
 
